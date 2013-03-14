@@ -23,13 +23,13 @@ url: "http://localhost:4000"
 # List files and directories to include. Dot files are excluded by default - so those are good to include here. Most things are added by
 # default. I generally add my .htaccess file and nothing else.
 # ===============
-# include:
+include: .htaccess
 
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ===============
-#exclude:_sass,.gitignore, README.md
+exclude:_sass,.gitignore, README.md
 
 # Pagination variable for how many posts to show in a list
 # ===============
