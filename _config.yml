@@ -1,0 +1,23 @@
+# This will be the first part of the title tag for your site <title> site.name + page.title </title>
+name: ""
+# Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
+descripiton: ""
+# Owner (organization or individual) of site content
+author: ""
+
+#url: "[http:// ]"
+url: "http://localhost:4000"
+
+# Pagination variable for how many posts to show in a list
+#paginate: 5
+
+# Style of permalinks
+#permalink: pretty
+
+# Variable format options for URL styles below
+# pretty                                          => /2009/04/29/slap-chop/index.html
+# /:month-month:day-:year/:title.html/            => 04-29-2009/slap-chop.html
+# /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
+
+# UnComment once you have pygments installed. Used for code syntax highlighting.
+#pygments: true
