@@ -1,3 +1,5 @@
+Checkout [nkd.cc](http://nkd.cc)
+
 # NKD
 
 ## Barebones scaffolding for a new Responsive HTML5 Jekyll project. 
