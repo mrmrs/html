@@ -42,3 +42,7 @@ Use this to start the jekyll server. It will auto generate a new site at _site e
 ### rake sass
     sass --watch _sass:css
 Run this to start the sass autocompiler. Compiles to /nkd/css/i.css on save.
+
+### rake clean
+    rm -rf _site
+Run this to delete the _site directory. Use if you don't want to keep generated site locally unless actively developing.
