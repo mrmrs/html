@@ -4,7 +4,7 @@ Checkout [nkd.cc](http://nkd.cc)
 
 ## Barebones scaffolding for a new Responsive HTML5 Jekyll project. 
 
-You shouldn't have to create a bunch of files to get going. Everything should just work. NKD just works.
+NKD just works.
 Start developing your jekyll prototype without any of the boring setup fuss.
 
 Site structure is as follows:
@@ -31,9 +31,6 @@ nkd                               [Site root]
 │   ├── i.css
 └── index.html                    [index file that's served up at root. The "homepage" if you will.]
 </pre>
-
-As you can see a number of files are blank and not included by default. These are common assets I need to use. 
-
 
 ## Rake Tasks
 
