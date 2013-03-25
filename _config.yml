@@ -28,7 +28,7 @@ include: .htaccess
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ===============
-exclude:_sass,.gitignore, README.md
+exclude: _sass,.gitignore, README.md
 
 # Pagination variable for how many posts to show in a list
 # ===============
