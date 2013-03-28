@@ -1,14 +1,14 @@
 # This will be the first part of the title tag for your site <title> site.name </title>
 # ===============
-name: ""
+name: "NKD"
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
 # ===============
-descripiton: ""
+description: "NKD - A boilerplate for jekyll"
 
 # Owner (organization or individual) of site content
 # ===============
-author: ""
+author: "mrmrs"
 
 #url: "[http:// ]"
 # Chance this when you generate your site for production to your production URL i.e http://mrsjxn.com
@@ -19,16 +19,16 @@ url: "http://localhost:4000"
 # ===============
 # future: true
 
-# List files and directories to include. Dot files are excluded by default - so those are good to include here. Most things are added by
-# default. I generally add my .htaccess file and nothing else.
+# List files and directories to include. Dot files are excluded by default - so those are good to include here. 
+# Most things are added by default but sometimes being clear is good stuffs. 
 # ===============
-include: .htaccess
+#include:
 
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ===============
-exclude: _sass,.gitignore, README.md
+exclude: _sass, .gitignore, README.md
 
 # Pagination variable for how many posts to show in a list
 # ===============
@@ -36,7 +36,7 @@ exclude: _sass,.gitignore, README.md
 
 # Style of permalinks
 # ===============
-#permalink: pretty
+permalink: pretty
 
 # Variable format options for URL styles below
 # ===============
