@@ -36,25 +36,25 @@ Site structure is as follows:
 
 ### rake dev
 ```
-  jekyll serve --watch
+jekyll serve --watch
 ```
 Use this to start the jekyll server. It will auto generate a new site at _site every time you save a file.
 
 ### rake sass
 ```
-    sass --watch _sass:css
+sass --watch _sass:css
 ```
 
 Run this to start the sass autocompiler. Outputs to /nkd/css/i.css.
 
 ### rake minify
 ```
-    sass --watch _sass:css --style compressed
+sass --watch _sass:css --style compressed
 ```
 
 ### rake clean
 ```
-    rm -rf _site
+rm -rf _site
 ```
 
 Run this to delete the _site directory. Use if you don't want to keep generated site locally unless actively developing.
