@@ -2,7 +2,7 @@ Checkout [nkd.cc](http://nkd.cc)
 
 # NKD
 
-## Barebones scaffolding for a new Responsive HTML5 Jekyll project *
+### Barebones scaffolding for a new Responsive HTML5 Jekyll project *
 
 NKD just works.
 Start developing your jekyll prototype without any of the boring setup fuss.
