@@ -12,7 +12,7 @@ without any of the boring setup.
 
 * Modular file structure, easy to extend or get rid of existing code.
 * Mobile friendly responsive type scale
-* A solid SCSS base that starts with Normalize.css
+* A light-weight SCSS base that starts with Normalize.css - 1.2KB minified / 214B gzipped.
 * Thoroughly commented code (Easy to get going if it's your first jekyll project)
 * Two media queries for tablet and desktop size screens. Lends itself to mobile-first design.
 
