@@ -1,10 +1,11 @@
-# This will be the first part of the title tag for your site <title> site.name </title>
+# This will be the first part of the title tag for your site 
+# <title> {{site.name}}</title>
 # ===============
 name: "NKD"
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
 # ===============
-description: "NKD - A boilerplate for jekyll"
+description: "NKD - Boilerplate for a responsive html5"
 
 # Owner (organization or individual) of site content
 # ===============
@@ -13,22 +14,18 @@ author: "mrmrs"
 #url: "[http:// ]"
 # Chance this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ===============
+#url: "http://productionurl.com
 url: "http://localhost:4000"
 
 # Publish future posts or not option. 
 # ===============
-# future: true
-
-# List files and directories to include. Dot files are excluded by default - so those are good to include here. 
-# Most things are added by default but sometimes being clear is good stuffs. 
-# ===============
-#include:
+future: true
 
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ===============
-exclude: _sass, .gitignore, README.md
+exclude: [README.md, Rakefile]
 
 # Pagination variable for how many posts to show in a list
 # ===============
@@ -44,5 +41,6 @@ permalink: pretty
 # /:month-month:day-:year/:title.html/            => 04-29-2009/slap-chop.html
 # /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
 
-# UnComment once you have pygments installed. Used for code syntax highlighting.
+# Uncomment if you have pygments installed. Used for code syntax highlighting. 
+# If you're not doing syntax highlighting you can delete this.
 #pygments: true
