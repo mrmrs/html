@@ -2,7 +2,7 @@ Checkout [nkd.cc](http://nkd.cc "NKD")
 
 # NKD
 
-## Light-weight template for a responsive HTML5/SCSS Jekyll project 
+#### Light-weight template for a responsive HTML5/SCSS Jekyll project 
 
 NKD just works.
 Start developing your prototype in [jekyll](http://jekyllrb.com "Jekyll - Simple, blog-aware, static sites") 
