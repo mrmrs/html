@@ -9,8 +9,10 @@ Start developing your prototype in [jekyll](http://jekyllrb.com "Jekyll - Simple
 without any of the boring setup.
 
 # Features
+
 * Modular file structure, easy to extend or get rid of existing code.
 * Mobile friendly responsive type scale
+* A solid SCSS base that starts with Normalize.css
 * Thoroughly commented code (Easy to get going if it's your first jekyll project)
 * Two media queries for tablet and desktop size screens. Lends itself to mobile-first design.
 
@@ -37,39 +39,52 @@ without any of the boring setup.
 git push -u origin master
 ```
 
-
+# Batteries Not Included
 
 File structure is as follows:
 
-<pre>
-nkd                                 [ Site root]
-  ├── README.md                     [What you're reading now]
-  ├── Rakefile                      [Rake sass, rake dev]
-  ├── _config.yml                   [Config for site. You can run jekyll without a _config.yml file if you want]
-  ├── _includes                     [Common includes I need for sites / pages]
-  │   ├── _footer.html              [_BLANK_]
-  │   ├── _head.html                [Common header elements]
-  │   ├── _js_includes.html         [_BLANK_]
-  │   └── _navigation_main.html     [_BLANK_]
-  ├── _layouts                      [Two layout files: default and post. both are identical by default.]
-  │   ├── default.html      
-  │   └── post.html
-  ├── _posts                        [Directory where you'd put posts...if you want any]
+```
+nkd                                 [ Site root ] 
+  ├── README.md                     [ You are here ]
+  ├── Rakefile                      [ Rake tasks! ]
+  ├── _config.yml                   [ Site options ]
+  ├── _includes
+  │   ├── _footer.html
+  │   ├── _head.html
+  │   ├── _js_includes.html
+  │   └── _navigation_main.html
+  ├── _layouts
+  │   ├── default.html
+  │   └── post.html
+  ├── _posts
+  │   └── 2020-01-01-example.html
+  ├── _resources
+  │   └── favicons.ai
   ├── _sass
-  │   ├── _grid.scss                [Blank media queries. Not included or compiled to css]
-  │   ├── i.scss                    [Includes normalize - compiles to i.css]
-  │   └── normalize.scss            
+  │   ├── _grid.scss
+  │   ├── _normalize.scss           [http://necolas.github.io/normalize.css/]
+  │   ├── _queries.scss             [Configurable media queries]
+  │   ├── _styles.scss
+  │   ├── _type.scss
+  │   ├── _variables.scss
+  │   └── i.scss                    [Imports .scss files, compiles to css/i.css]
   ├── css
-  │   ├── i.css
-  └── index.html                    [index file that's served up at root. The "homepage" if you will.]
-</pre>
+  │   └── i.css                     [1.8KB minified / 214B gzipped - includes normalize.css]
+  ├── favicon.icns
+  ├── favicon.ico
+  ├── index.html                    [index file that's served up at root. The "homepage" if you will.]
+  ├── touch-icon-ipad-precomposed.png
+  ├── touch-icon-ipad-retina-precomposed.png
+  ├── touch-icon-iphone-precomposed.png
+  └── touch-icon-iphone-retina-precomposed.png
+```
 
 # Rake Tasks
-## WAIT I'M A DESIGNER WHAT IS RAKE
+## WAIT I'M A DESIGNER WHAT IS RAKE 
 Rake is super simple. Don't be afraid. In this instance it's used to map unix commands
 to "rake tasks". It's a lot easier to remember 'rake dev' then jekyll serve --watch, well 
 it is for me anyways. If you don't like any of these commands, don't be scared. Rakefile
-is a super easy file to edit. 
+is a super easy file to edit - even if it looks scary because it doesn't have an extension.
 
 Start the jekyll server on port 4000. Preview in your browser at http://localhost:4000
 ### rake dev
