@@ -10,6 +10,7 @@ Common markup patterns useful for developing prototypes or creating new themes.
 
 * Modular file structure - add your own patterns, or delete the ones you don't like.
 * Semantic markup examples for common design patterns.
+* 100% responsive :)
 * Thoroughly commented code (Useful comments and reference links for new HTML developers)
 
 # Getting started
@@ -36,7 +37,6 @@ git push -u origin master
 ```
 
 Now your set up to use this in a new project. 
-
 
 # Author
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
