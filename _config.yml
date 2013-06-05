@@ -1,11 +1,11 @@
 # This will be the first part of the title tag for your site 
 # <title> {{site.name}} </title>
 # ============================================================
-name: "NKD - B"
+name: "HTML patterns"
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO results.
 # ============================================================
-description: "NKD - Boilerplate for a responsive HTML5/SASS jekyll project."
+description: "Common HTML patterns I use. Maybe useful for others."
 
 # Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
 # ============================================================
@@ -13,7 +13,7 @@ author: "mrmrs"
 
 # Chance this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ============================================================
-#url: "http://productionurl.com
+#url: "http://ht-ml.cc
 url: "http://localhost:4000"
 
 # Publish future posts or not option. 
