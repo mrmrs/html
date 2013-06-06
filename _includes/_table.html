@@ -1,0 +1,47 @@
+<section>
+  <!--
+    From the HTML spec (http://www.w3.org/TR/html401/struct/tables.html)
+
+    TFOOT must appear before TBODY within a TABLE definition so that user agents can 
+    render the foot before receiving all of the (potentially numerous) rows of data. 
+    The following summarizes which tags are required and which may be omitted:
+
+    The TBODY start tag is always required except when the table contains only one 
+    table body and no table head or foot sections. The TBODY end tag may always be 
+    safely omitted.
+
+    The start tags for THEAD and TFOOT are required when the table head and foot sections 
+    are present respectively, but the corresponding end tags may always be safely 
+    omitted.
+
+    Conforming user agent parsers must obey these rules for reasons of backward 
+    compatibility.
+  -->
+  <table>
+    <caption>Tabular Data ExampleTabular Data Examples</caption>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tfoot>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>#999-32ac</dt>
+        <td>First Name</dt>
+        <td>13 May, 2013</dt>
+        <td>999 Spruce Lane, Somewhere, CA 94101</td>
+      </tr>
+      <tr>
+        <td>#888-32dd</dt>
+        <td>Sample Name</dt>
+        <td>17 May, 1984</dt>
+        <td>999 Spruce Lane, Somewhere, CA 94101</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
