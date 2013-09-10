@@ -1,326 +1,2627 @@
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
-   HTML5 display definitions
+   COLORS
    ========================================================================== */
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block; }
+/* variables */
+/* Text colors */
+.pink {
+  color: pink; }
 
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-audio,
-canvas,
-video {
-  display: inline-block; }
+.lightpink {
+  color: lightpink; }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
+.hotpink {
+  color: hotpink; }
 
-/**
- * Address styling not present in IE 8/9.
- */
-[hidden] {
-  display: none; }
+.deeppink {
+  color: deeppink; }
+
+.palevioletred {
+  color: palevioletred; }
+
+.mediumvioletred {
+  color: mediumvioletred; }
+
+.lightsalmon {
+  color: lightsalmon; }
+
+.salmon {
+  color: salmon; }
+
+.darksalmon {
+  color: darksalmon; }
+
+.lightcoral {
+  color: lightcoral; }
+
+.indianred {
+  color: indianred; }
+
+.crimson {
+  color: crimson; }
+
+.firebrick {
+  color: firebrick; }
+
+.darkred {
+  color: darkred; }
+
+.red {
+  color: red; }
+
+.orangered {
+  color: orangered; }
+
+.tomato {
+  color: tomato; }
+
+.coral {
+  color: coral; }
+
+.darkorange {
+  color: darkorange; }
+
+.orange {
+  color: orange; }
+
+.gold {
+  color: gold; }
+
+.yellow {
+  color: yellow; }
+
+.lightyellow {
+  color: lightyellow; }
+
+.lemonchiffon {
+  color: lemonchiffon; }
+
+.lightgoldenrodyellow {
+  color: lightgoldenrodyellow; }
+
+.papayawhip {
+  color: papayawhip; }
+
+.moccasin {
+  color: moccasin; }
+
+.peachpuff {
+  color: peachpuff; }
+
+.palegoldenrod {
+  color: palegoldenrod; }
+
+.khaki {
+  color: khaki; }
+
+.darkkhaki {
+  color: darkkhaki; }
+
+.cornsilk {
+  color: cornsilk; }
+
+.blanchedalmond {
+  color: blanchedalmond; }
+
+.bisque {
+  color: bisque; }
+
+.navajowhite {
+  color: navajowhite; }
+
+.wheat {
+  color: wheat; }
+
+.burlywood {
+  color: burlywood; }
+
+.tan {
+  color: tan; }
+
+.rosybrown {
+  color: rosybrown; }
+
+.sandybrown {
+  color: sandybrown; }
+
+.goldenrod {
+  color: goldenrod; }
+
+.darkgoldenrod {
+  color: darkgoldenrod; }
+
+.peru {
+  color: peru; }
+
+.chocolate {
+  color: chocolate; }
+
+.saddlebrown {
+  color: saddlebrown; }
+
+.sienna {
+  color: sienna; }
+
+.brown {
+  color: brown; }
+
+.maroon {
+  color: maroon; }
+
+.darkolivegreen {
+  color: darkolivegreen; }
+
+.olive {
+  color: olive; }
+
+.olivedrab {
+  color: olivedrab; }
+
+.yellowgreen {
+  color: yellowgreen; }
+
+.limegreen {
+  color: limegreen; }
+
+.lime {
+  color: lime; }
+
+.lawngreen {
+  color: lawngreen; }
+
+.chartreuse {
+  color: chartreuse; }
+
+.greenyellow {
+  color: greenyellow; }
+
+.springgreen {
+  color: springgreen; }
+
+.mediumspringgreen {
+  color: mediumspringgreen; }
+
+.lightgreen {
+  color: lightgreen; }
+
+.palegreen {
+  color: palegreen; }
+
+.darkseagreen {
+  color: darkseagreen; }
+
+.mediumseagreen {
+  color: mediumseagreen; }
+
+.seagreen {
+  color: seagreen; }
+
+.forestgreen {
+  color: forestgreen; }
+
+.green {
+  color: green; }
+
+.darkgreen {
+  color: darkgreen; }
+
+.mediumaquamarine {
+  color: mediumaquamarine; }
+
+.aqua {
+  color: cyan; }
+
+.cyan {
+  color: cyan; }
+
+.lightcyan {
+  color: lightcyan; }
+
+.paleturquoise {
+  color: paleturquoise; }
+
+.aquamarine {
+  color: aquamarine; }
+
+.turquoise {
+  color: turquoise; }
+
+.mediumturquoise {
+  color: mediumturquoise; }
+
+.darkturquoise {
+  color: darkturquoise; }
+
+.lightseagreen {
+  color: lightseagreen; }
+
+.cadetblue {
+  color: cadetblue; }
+
+.darkcyan {
+  color: darkcyan; }
+
+.teal {
+  color: teal; }
+
+.lightsteelblue {
+  color: lightsteelblue; }
+
+.powderblue {
+  color: powderblue; }
+
+.lightblue {
+  color: lightblue; }
+
+.skyblue {
+  color: skyblue; }
+
+.lightskyblue {
+  color: lightskyblue; }
+
+.deepskyblue {
+  color: deepskyblue; }
+
+.dodgerblue {
+  color: dodgerblue; }
+
+.cornflowerblue {
+  color: cornflowerblue; }
+
+.steelblue {
+  color: steelblue; }
+
+.royalblue {
+  color: royalblue; }
+
+.blue {
+  color: blue; }
+
+.mediumblue {
+  color: mediumblue; }
+
+.darkblue {
+  color: darkblue; }
+
+.navy {
+  color: navy; }
+
+.midnightblue {
+  color: midnightblue; }
+
+.lavender {
+  color: lavender; }
+
+.thistle {
+  color: thistle; }
+
+.plum {
+  color: plum; }
+
+.violet {
+  color: violet; }
+
+.orchid {
+  color: orchid; }
+
+.fuchsia {
+  color: magenta; }
+
+.magenta {
+  color: magenta; }
+
+.mediumorchid {
+  color: mediumorchid; }
+
+.mediumpurple {
+  color: mediumpurple; }
+
+.blueviolet {
+  color: blueviolet; }
+
+.darkviolet {
+  color: darkviolet; }
+
+.darkorchid {
+  color: darkorchid; }
+
+.darkmagenta {
+  color: darkmagenta; }
+
+.purple {
+  color: purple; }
+
+.indigo {
+  color: indigo; }
+
+.darkslateblue {
+  color: darkslateblue; }
+
+.slateblue {
+  color: slateblue; }
+
+.mediumslateblue {
+  color: mediumslateblue; }
+
+.white {
+  color: white; }
+
+.snow {
+  color: snow; }
+
+.honeydew {
+  color: honeydew; }
+
+.mintcream {
+  color: mintcream; }
+
+.azure {
+  color: azure; }
+
+.aliceblue {
+  color: aliceblue; }
+
+.ghostwhite {
+  color: ghostwhite; }
+
+.whitesmoke {
+  color: whitesmoke; }
+
+.seashell {
+  color: seashell; }
+
+.beige {
+  color: beige; }
+
+.oldlace {
+  color: oldlace; }
+
+.floralwhite {
+  color: floralwhite; }
+
+.ivory {
+  color: ivory; }
+
+.antiquewhite {
+  color: antiquewhite; }
+
+.linen {
+  color: linen; }
+
+.lavenderblush {
+  color: lavenderblush; }
+
+.mistyrose {
+  color: mistyrose; }
+
+.gainsboro {
+  color: gainsboro; }
+
+.lightgray {
+  color: lightgrey; }
+
+.silver {
+  color: silver; }
+
+.darkgray {
+  color: darkgrey; }
+
+.gray {
+  color: gray; }
+
+.dimgray {
+  color: dimgrey; }
+
+.lightslategray {
+  color: lightslategrey; }
+
+.slategray {
+  color: slategrey; }
+
+.darkslategray {
+  color: darkslategrey; }
+
+.black {
+  color: black; }
+
+/* Background Skins */
+.bg-pink {
+  background-color: pink; }
+
+.bg-lightpink {
+  background-color: lightpink; }
+
+.bg-hotpink {
+  background-color: hotpink; }
+
+.bg-deeppink {
+  background-color: deeppink; }
+
+.bg-palevioletred {
+  background-color: palevioletred; }
+
+.bg-mediumvioletred {
+  background-color: mediumvioletred; }
+
+.bg-lightsalmon {
+  background-color: lightsalmon; }
+
+.bg-salmon {
+  background-color: salmon; }
+
+.bg-darksalmon {
+  background-color: darksalmon; }
+
+.bg-lightcoral {
+  background-color: lightcoral; }
+
+.bg-indianred {
+  background-color: indianred; }
+
+.bg-crimson {
+  background-color: crimson; }
+
+.bg-firebrick {
+  background-color: firebrick; }
+
+.bg-darkred {
+  background-color: darkred; }
+
+.bg-red {
+  background-color: red; }
+
+.bg-orangered {
+  background-color: orangered; }
+
+.bg-tomato {
+  background-color: tomato; }
+
+.bg-coral {
+  background-color: coral; }
+
+.bg-darkorange {
+  background-color: darkorange; }
+
+.bg-orange {
+  background-color: orange; }
+
+.bg-gold {
+  background-color: gold; }
+
+.bg-yellow {
+  background-color: yellow; }
+
+.bg-lightyellow {
+  background-color: lightyellow; }
+
+.bg-lemonchiffon {
+  background-color: lemonchiffon; }
+
+.bg-lightgoldenrodyellow {
+  background-color: lightgoldenrodyellow; }
+
+.bg-papayawhip {
+  background-color: papayawhip; }
+
+.bg-moccasin {
+  background-color: moccasin; }
+
+.bg-peachpuff {
+  background-color: peachpuff; }
+
+.bg-palegoldenrod {
+  background-color: palegoldenrod; }
+
+.bg-khaki {
+  background-color: khaki; }
+
+.bg-darkkhaki {
+  background-color: darkkhaki; }
+
+.bg-cornsilk {
+  background-color: cornsilk; }
+
+.bg-blanchedalmond {
+  background-color: blanchedalmond; }
+
+.bg-bisque {
+  background-color: bisque; }
+
+.bg-navajowhite {
+  background-color: navajowhite; }
+
+.bg-wheat {
+  background-color: wheat; }
+
+.bg-burlywood {
+  background-color: burlywood; }
+
+.bg-tan {
+  background-color: tan; }
+
+.bg-rosybrown {
+  background-color: rosybrown; }
+
+.bg-sandybrown {
+  background-color: sandybrown; }
+
+.bg-goldenrod {
+  background-color: goldenrod; }
+
+.bg-darkgoldenrod {
+  background-color: darkgoldenrod; }
+
+.bg-peru {
+  background-color: peru; }
+
+.bg-chocolate {
+  background-color: chocolate; }
+
+.bg-saddlebrown {
+  background-color: saddlebrown; }
+
+.bg-sienna {
+  background-color: sienna; }
+
+.bg-brown {
+  background-color: brown; }
+
+.bg-maroon {
+  background-color: maroon; }
+
+.bg-darkolivegreen {
+  background-color: darkolivegreen; }
+
+.bg-olive {
+  background-color: olive; }
+
+.bg-olivedrab {
+  background-color: olivedrab; }
+
+.bg-yellowgreen {
+  background-color: yellowgreen; }
+
+.bg-limegreen {
+  background-color: limegreen; }
+
+.bg-lime {
+  background-color: lime; }
+
+.bg-lawngreen {
+  background-color: lawngreen; }
+
+.bg-chartreuse {
+  background-color: chartreuse; }
+
+.bg-greenyellow {
+  background-color: greenyellow; }
+
+.bg-springgreen {
+  background-color: springgreen; }
+
+.bg-mediumspringgreen {
+  background-color: mediumspringgreen; }
+
+.bg-lightgreen {
+  background-color: lightgreen; }
+
+.bg-palegreen {
+  background-color: palegreen; }
+
+.bg-darkseagreen {
+  background-color: darkseagreen; }
+
+.bg-mediumseagreen {
+  background-color: mediumseagreen; }
+
+.bg-seagreen {
+  background-color: seagreen; }
+
+.bg-forestgreen {
+  background-color: forestgreen; }
+
+.bg-green {
+  background-color: green; }
+
+.bg-darkgreen {
+  background-color: darkgreen; }
+
+.bg-mediumaquamarine {
+  background-color: mediumaquamarine; }
+
+.bg-aqua {
+  background-color: cyan; }
+
+.bg-cyan {
+  background-color: cyan; }
+
+.bg-lightcyan {
+  background-color: lightcyan; }
+
+.bg-paleturquoise {
+  background-color: paleturquoise; }
+
+.bg-aquamarine {
+  background-color: aquamarine; }
+
+.bg-turquoise {
+  background-color: turquoise; }
+
+.bg-mediumturquoise {
+  background-color: mediumturquoise; }
+
+.bg-darkturquoise {
+  background-color: darkturquoise; }
+
+.bg-lightseagreen {
+  background-color: lightseagreen; }
+
+.bg-cadetblue {
+  background-color: cadetblue; }
+
+.bg-darkcyan {
+  background-color: darkcyan; }
+
+.bg-teal {
+  background-color: teal; }
+
+.bg-lightsteelblue {
+  background-color: lightsteelblue; }
+
+.bg-powderblue {
+  background-color: powderblue; }
+
+.bg-lightblue {
+  background-color: lightblue; }
+
+.bg-skyblue {
+  background-color: skyblue; }
+
+.bg-lightskyblue {
+  background-color: lightskyblue; }
+
+.bg-deepskyblue {
+  background-color: deepskyblue; }
+
+.bg-dodgerblue {
+  background-color: dodgerblue; }
+
+.bg-cornflowerblue {
+  background-color: cornflowerblue; }
+
+.bg-steelblue {
+  background-color: steelblue; }
+
+.bg-royalblue {
+  background-color: royalblue; }
+
+.bg-blue {
+  background-color: blue; }
+
+.bg-mediumblue {
+  background-color: mediumblue; }
+
+.bg-darkblue {
+  background-color: darkblue; }
+
+.bg-navy {
+  background-color: navy; }
+
+.bg-midnightblue {
+  background-color: midnightblue; }
+
+.bg-lavender {
+  background-color: lavender; }
+
+.bg-thistle {
+  background-color: thistle; }
+
+.bg-plum {
+  background-color: plum; }
+
+.bg-violet {
+  background-color: violet; }
+
+.bg-orchid {
+  background-color: orchid; }
+
+.bg-fuchsia {
+  background-color: magenta; }
+
+.bg-magenta {
+  background-color: magenta; }
+
+.bg-mediumorchid {
+  background-color: mediumorchid; }
+
+.bg-mediumpurple {
+  background-color: mediumpurple; }
+
+.bg-blueviolet {
+  background-color: blueviolet; }
+
+.bg-darkviolet {
+  background-color: darkviolet; }
+
+.bg-darkorchid {
+  background-color: darkorchid; }
+
+.bg-darkmagenta {
+  background-color: darkmagenta; }
+
+.bg-purple {
+  background-color: purple; }
+
+.bg-indigo {
+  background-color: indigo; }
+
+.bg-darkslateblue {
+  background-color: darkslateblue; }
+
+.bg-slateblue {
+  background-color: slateblue; }
+
+.bg-mediumslateblue {
+  background-color: mediumslateblue; }
+
+.bg-white {
+  background-color: white; }
+
+.bg-snow {
+  background-color: snow; }
+
+.bg-honeydew {
+  background-color: honeydew; }
+
+.bg-mintcream {
+  background-color: mintcream; }
+
+.bg-azure {
+  background-color: azure; }
+
+.bg-aliceblue {
+  background-color: aliceblue; }
+
+.bg-ghostwhite {
+  background-color: ghostwhite; }
+
+.bg-whitesmoke {
+  background-color: whitesmoke; }
+
+.bg-seashell {
+  background-color: seashell; }
+
+.bg-beige {
+  background-color: beige; }
+
+.bg-oldlace {
+  background-color: oldlace; }
+
+.bg-floralwhite {
+  background-color: floralwhite; }
+
+.bg-ivory {
+  background-color: ivory; }
+
+.bg-antiquewhite {
+  background-color: antiquewhite; }
+
+.bg-linen {
+  background-color: linen; }
+
+.bg-lavenderblush {
+  background-color: lavenderblush; }
+
+.bg-mistyrose {
+  background-color: mistyrose; }
+
+.bg-gainsboro {
+  background-color: gainsboro; }
+
+.bg-lightgray {
+  background-color: lightgrey; }
+
+.bg-silver {
+  background-color: silver; }
+
+.bg-darkgray {
+  background-color: darkgrey; }
+
+.bg-gray {
+  background-color: gray; }
+
+.bg-dimgray {
+  background-color: dimgrey; }
+
+.bg-lightslategray {
+  background-color: lightslategrey; }
+
+.bg-slategray {
+  background-color: slategrey; }
+
+.bg-darkslategray {
+  background-color: darkslategrey; }
+
+.bg-black {
+  background-color: black; }
 
 /* ==========================================================================
-   Base
+   BACKGROUNDS
    ========================================================================== */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */ }
+.bg-cov {
+  background-size: cover; }
 
-/**
- * Remove default margin.
- */
-body {
-  margin: 0; }
+.bg-con {
+  background-size: contain; }
+
+/* 1st value defines background width, height is implicitly set to auto */
+.bg-half {
+  background-size: 50%; }
+
+.bg-size4 {
+  background-size: 4rem; }
+
+.bg-auto {
+  background-size: auto; }
+
+/* Repeats */
+.bg-x {
+  background-repeat: repeat-x; }
+
+.bg-y {
+  background-repeat: repeat-y; }
+
+.bg-repeat {
+  background-repeat: repeat; }
+
+.bg-space {
+  background-repeat: space; }
+
+.bg-round {
+  background-repeat: round; }
+
+.bg-norepeat {
+  background-repeat: no-repeat; }
+
+/* Background Clip */
+.bg-clip-bb {
+  background-clip: border-box; }
+
+.bg-clip-pb {
+  background-clip: padding-box; }
+
+.bg-clip-cb {
+  background-clip: content-box; }
 
 /* ==========================================================================
-   Links
-   ========================================================================== */
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-a:focus {
-  outline: thin dotted; }
+   ANIMATION UTILITIES
+   - Animation Directions
 
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-a:active,
-a:hover {
-  outline: 0; }
+   ========================================================================== */
+/* Animation Directions */
+.ani-dir-norm {
+  animation-direction: normal; }
+
+.ani-dir-rev {
+  animation-direction: reverse; }
+
+.ani-dir-alt {
+  animation-direction: alternate; }
+
+.ani-dir-alt-rev {
+  animation-direction: alternate-reverse; }
+
+/* Animation Durations  TODO: Change scale */
+.ani-dur-1 {
+  animation-duration: .4s; }
+
+.ani-dur-2 {
+  animation-duration: .5s; }
+
+.ani-dur-3 {
+  animation-duration: .6s; }
+
+.ani-dur-4 {
+  animation-duration: 1s; }
+
+.ani-dur-5 {
+  animation-duration: 1.5; }
+
+.ani-dur-6 {
+  animation-duration: 10; }
+
+/* Animation Fill Mode TODO: Class names. */
+.ani-fil-non {
+  animation-fill-mode: none; }
+
+.ani-fil-frw {
+  animation-fill-mode: forwards; }
+
+.ani-fil-bck {
+  animation-fill-mode: backwards; }
+
+.ani-fil-bth {
+  animation-fill-mode: both; }
+
+/* Animation Count */
+.ani-count-1 {
+  animation-iteration-count: 1; }
+
+.ani-count-2 {
+  animation-iteration-count: 2; }
+
+.ani-count-3 {
+  animation-iteration-count: 5; }
+
+.ani-count-4 {
+  animation-iteration-count: 10; }
+
+.ani-count-5 {
+  animation-iteration-count: infinite; }
+
+/* Animation Play State */
+.ani-state-run {
+  animation-play-state: running; }
+
+.ani-state-pause {
+  animation-play-state: paused; }
+
+/* Animation Timing */
+.ani-tmng-ease {
+  animation-timing-function: ease; }
+
+.ani-tmng-easein {
+  animation-timing-function: ease-in; }
+
+.ani-tmng-easeout {
+  animation-timing-function: ease-out; }
+
+.ani-tmng-easeinout {
+  animation-timing-function: ease-in-out; }
+
+.ani-tmng-linear {
+  animation-timing-function: linear; }
+
+.ani-tmng-bezier {
+  animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+
+.ani-tmng-start {
+  animation-timing-function: step-start; }
+
+.ani-tmng-stop {
+  animation-timing-function: step-stop; }
+
+/* Animation delays */
+.ani-delay-1 {
+  animation-delay: .5s; }
+
+.ani-delay-2 {
+  animation-delay: 1s; }
+
+.ani-delay-3 {
+  animation-delay: 2s; }
+
+.ani-delay-4 {
+  animation-delay: 4s; }
+
+.ani-delay-5 {
+  animation-delay: 8s; }
+
+.ani-delay-6 {
+  animation-delay: 16s; }
 
 /* ==========================================================================
-   Typography
+   BORDERS
    ========================================================================== */
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-abbr[title] {
-  border-bottom: 1px dotted; }
+/* Border base */
+.bor {
+  border-style: solid;
+  border-width: 1px; }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-b,
-strong {
-  font-weight: bold; }
+.bw-1 {
+  border-width: 1px; }
 
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-dfn, em {
-  font-style: italic; }
+.bw-2 {
+  border-width: 2px; }
 
-/**
- * Address differences between Firefox and other browsers.
- */
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0; }
+.bw-3 {
+  border-width: 4px; }
 
-/**
- * Address styling not present in IE 8/9.
- */
-mark {
-  background: #ff0;
-  color: #000; }
+.bw-4 {
+  border-width: 8px; }
 
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em; }
+.bw-5 {
+  border-width: 16px; }
 
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
-pre {
-  white-space: pre-wrap; }
+/* Border extensions */
+.bor--blk {
+  border-color: #111111; }
 
-/**
- * Set consistent quote types.
- */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+.bor--dk-gry {
+  border-color: #333333; }
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-small {
-  font-size: 80%; }
+.bor--md-gry {
+  border-color: #666666; }
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
+.bor--gray {
+  border-color: gray; }
 
-sup {
-  top: -0.5em; }
+.bor--silver {
+  border-color: silver; }
 
-sub {
-  bottom: -0.25em; }
+.bor--lt-slvr {
+  border-color: #aaaaaa; }
+
+.bor--lt-gry {
+  border-color: #cccccc; }
+
+.bor--near-wht {
+  border-color: #eeeeee; }
+
+.bor--wht {
+  border-color: white; }
+
+/* Border Radius */
+.br {
+  border-radius: 4px; }
+
+.br-circ {
+  border-radius: 9999px; }
+
+.br-100 {
+  border-radius: 100%; }
+
+/* Styles */
+.b-none {
+  border-style: none; }
+
+.b-hidden {
+  border-style: hidden; }
+
+.b-dotted {
+  border-style: dotted; }
+
+.b-dashed {
+  border-style: dashed; }
+
+.b-solid {
+  border-style: solid; }
+
+.b-double {
+  border-style: double; }
+
+.b-groove {
+  border-style: groove; }
+
+.b-ridge {
+  border-style: ridge; }
+
+.b-inset {
+  border-style: inset; }
+
+.b-outset {
+  border-style: outset; }
+
+.bt-none {
+  border-top-style: none; }
+
+.bt-hidden {
+  border-top-style: hidden; }
+
+.bt-dotted {
+  border-top-style: dotted; }
+
+.bt-dashed {
+  border-top-style: dashed; }
+
+.bt-solid {
+  border-top-style: solid; }
+
+.bt-double {
+  border-top-style: double; }
+
+.bt-groove {
+  border-top-style: groove; }
+
+.bt-ridge {
+  border-top-style: ridge; }
+
+.bt-inset {
+  border-top-style: inset; }
+
+.bt-outset {
+  border-top-style: outset; }
+
+.bb-none {
+  border-bottom-style: none; }
+
+.bb-hidden {
+  border-bottom-style: hidden; }
+
+.bb-dotted {
+  border-bottom-style: dotted; }
+
+.bb-dashed {
+  border-bottom-style: dashed; }
+
+.bb-solid {
+  border-bottom-style: solid; }
+
+.bb-double {
+  border-bottom-style: double; }
+
+.bb-groove {
+  border-bottom-style: groove; }
+
+.bb-ridge {
+  border-bottom-style: ridge; }
+
+.bb-inset {
+  border-bottom-style: inset; }
+
+.bb-outset {
+  border-bottom-style: outset; }
+
+.bl-none {
+  border-left-style: none; }
+
+.bl-hidden {
+  border-left-style: hidden; }
+
+.bl-dotted {
+  border-left-style: dotted; }
+
+.bl-dashed {
+  border-left-style: dashed; }
+
+.bl-solid {
+  border-left-style: solid; }
+
+.bl-double {
+  border-left-style: double; }
+
+.bl-groove {
+  border-left-style: groove; }
+
+.bl-ridge {
+  border-left-style: ridge; }
+
+.bl-inset {
+  border-left-style: inset; }
+
+.bl-outset {
+  border-left-style: outset; }
+
+.br-none {
+  border-right-style: none; }
+
+.br-hidden {
+  border-right-style: hidden; }
+
+.br-dotted {
+  border-right-style: dotted; }
+
+.br-dashed {
+  border-right-style: dashed; }
+
+.br-solid {
+  border-right-style: solid; }
+
+.br-double {
+  border-right-style: double; }
+
+.br-groove {
+  border-right-style: groove; }
+
+.br-ridge {
+  border-right-style: ridge; }
+
+.br-inset {
+  border-right-style: inset; }
+
+.br-outset {
+  border-right-style: outset; }
+
+/* Border Widths */
+.bw-1 {
+  border-width: 1px; }
+
+.bw-2 {
+  border-width: 2px; }
+
+.bw-3 {
+  border-width: 4px; }
+
+.bw-4 {
+  border-width: 8px; }
+
+.bw-5 {
+  border-width: 16px; }
+
+.blw-1 {
+  border-left-width: 1px; }
+
+.blw-2 {
+  border-left-width: 2px; }
+
+.blw-3 {
+  border-left-width: 4px; }
+
+.blw-4 {
+  border-left-width: 8px; }
+
+.blw-5 {
+  border-left-width: 16px; }
+
+.brw-1 {
+  border-right-width: 1px; }
+
+.brw-2 {
+  border-right-width: 2px; }
+
+.brw-3 {
+  border-right-width: 4px; }
+
+.brw-4 {
+  border-right-width: 8px; }
+
+.brw-5 {
+  border-right-width: 16px; }
+
+.bbw-1 {
+  border-bottom-width: 1px; }
+
+.bbw-2 {
+  border-bottom-width: 2px; }
+
+.bbw-3 {
+  border-bottom-width: 4px; }
+
+.bbw-4 {
+  border-bottom-width: 8px; }
+
+.bbw-5 {
+  border-bottom-width: 16px; }
+
+.btw-1 {
+  border-top-width: 1px; }
+
+.btw-2 {
+  border-top-width: 2px; }
+
+.btw-3 {
+  border-top-width: 4px; }
+
+.btw-4 {
+  border-top-width: 8px; }
+
+.btw-5 {
+  border-top-width: 16px; }
 
 /* ==========================================================================
-   Embedded content
+   CLEARS
    ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-img {
-  border: 0; }
+.cn {
+  clear: none; }
 
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-svg:not(:root) {
-  overflow: hidden; }
+.cl {
+  clear: left; }
+
+.cr {
+  clear: right; }
+
+.cb {
+  clear: both; }
 
 /* ==========================================================================
-   Figures
+   CURSORS
    ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
-figure {
-  margin: 0; }
+.cursor-auto {
+  cursor: auto; }
 
-/* ==========================================================================
-   Forms
-   ========================================================================== */
-/**
- * Define consistent border, margin, and padding.
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-button,
-input {
-  line-height: normal; }
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
- */
-button,
-select {
-  text-transform: none; }
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
-
-/**
- * Re-set default cursor for disabled elements.
- */
-button[disabled],
-html input[disabled] {
+.cursor-default {
   cursor: default; }
 
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
- */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+.cursor-none {
+  cursor: none; }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
+.cursor-context-menu {
+  cursor: context-menu; }
 
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+.cursor-help {
+  cursor: help; }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
+.cursor-pointer {
+  cursor: pointer; }
 
-/**
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-textarea {
-  overflow: auto;
-  /* 1 */
-  vertical-align: top;
-  /* 2 */ }
+.cursor-progress {
+  cursor: progress; }
+
+.cursor-wait {
+  cursor: wait; }
+
+.cursor-cell {
+  cursor: cell; }
+
+.cursor-crosshair {
+  cursor: crosshair; }
+
+.cursor-text {
+  cursor: text; }
+
+.cursor-vertical-text {
+  cursor: vertical-text; }
+
+.cursor-alias {
+  cursor: alias; }
+
+.cursor-copy {
+  cursor: copy; }
+
+.cursor-move {
+  cursor: move; }
+
+.cursor-no-drop {
+  cursor: no-drop; }
+
+.cursor-not-allowed {
+  cursor: not-allowed; }
+
+.cursor-e-resize {
+  cursor: e-resize; }
+
+.cursor-n-resize {
+  cursor: n-resize; }
+
+.cursor-ne-resize {
+  cursor: ne-resize; }
+
+.cursor-nw-resize {
+  cursor: nw-resize; }
+
+.cursor-s-resize {
+  cursor: s-resize; }
+
+.cursor-se-resize {
+  cursor: se-resize; }
+
+.cursor-sw-resize {
+  cursor: sw-resize; }
+
+.cursor-w-resize {
+  cursor: w-resize; }
+
+.cursor-ew-resize {
+  cursor: ew-resize; }
+
+.cursor-ns-resize {
+  cursor: ns-resize; }
+
+.cursor-nesw-resize {
+  cursor: nesw-resize; }
+
+.cursor-nwse-resize {
+  cursor: nwse-resize; }
+
+.cursor-col-resize {
+  cursor: col-resize; }
+
+.cursor-row-resize {
+  cursor: row-resize; }
+
+.cursor-all-scroll {
+  cursor: all-scroll; }
+
+.cursor-zoom-in {
+  cursor: zoom-in; }
+
+.cursor-zoom-out {
+  cursor: zoom-out; }
 
 /* ==========================================================================
-   Tables
+   DIMENSIONS
    ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+.wi-25 {
+  width: 25%; }
+
+.wi-50 {
+  width: 50%; }
+
+.wi-75 {
+  width: 75%; }
+
+.wi-full {
+  width: 100%; }
+
+/* ==========================================================================
+   GEOMETRY
+   ========================================================================== */
+/* Width Scale */
+.wi-1 {
+  width: 1rem; }
+
+.wi-2 {
+  width: 2rem; }
+
+.wi-3 {
+  width: 4rem; }
+
+.wi-4 {
+  width: 8rem; }
+
+/* Height Scale */
+.ht-1 {
+  height: 1rem; }
+
+.ht-2 {
+  height: 2rem; }
+
+.ht-3 {
+  height: 4rem; }
+
+.ht-4 {
+  height: 8rem; }
+
+/* Squares */
+.sq-1 {
+  width: 1rem;
+  height: 1rem; }
+
+.sq-2 {
+  width: 2rem;
+  height: 2rem; }
+
+.sq-3 {
+  width: 4rem;
+  height: 4rem; }
+
+.sq-4 {
+  width: 8rem;
+  height: 8rem; }
+
+.sq-5 {
+  width: 16rem;
+  height: 16rem; }
+
+/*
+
+Make an element shrink wrap its content.  Should be combined with a float class .fl or .fr
+*/
+.shrink {
+  display: block;
+  width: auto !important; }
+
+/*
+
+Make an element fill the remaining space.  N.B. This will hide overflow.
+*/
+.fill {
+  display: block;
+  overflow: hidden;
+  width: auto !important; }
+
+/*
+
+Make an element the width of its parent.
+*/
+.db-full {
+  display: block;
+  width: 100%; }
+
+/* ==========================================================================
+   MIN AND MAX HEIGHTS AND WIDTHS
+   ========================================================================== */
+.max-hi-100 {
+  max-height: 100%; }
+
+.max-hi-none {
+  max-height: none; }
+
+.max-hi-max {
+  max-height: max-content; }
+
+.max-hi-min {
+  max-height: min-content; }
+
+.max-hi-fit {
+  max-height: fit-content; }
+
+.max-hi-fill {
+  max-height: fill-available; }
+
+.max-wi {
+  max-width: 100%; }
+
+.max-wi {
+  max-width: none; }
+
+.max-wi {
+  max-width: max-content; }
+
+.max-wi {
+  max-width: min-content; }
+
+.max-wi {
+  max-width: fit-content; }
+
+.max-wi {
+  max-width: fill-available; }
+
+.min-hi {
+  min-height: 50%; }
+
+.min-hi {
+  min-height: max-content; }
+
+.min-hi {
+  min-height: min-content; }
+
+.min-hi {
+  min-height: fit-content; }
+
+.min-hi {
+  min-height: fill-available; }
+
+.min-wi {
+  min-width: 50%; }
+
+.min-wi {
+  min-width: max-content; }
+
+.min-wi {
+  min-width: min-content; }
+
+.min-wi {
+  min-width: fit-content; }
+
+.min-wi {
+  min-width: fill-available; }
+
+/* ==========================================================================
+   DIRECTIONS
+   ========================================================================== */
+.ltr {
+  direction: ltr; }
+
+.rtl {
+  direction: rtl; }
+
+/* ==========================================================================
+   DISPLAY
+   ========================================================================== */
+.dn {
+  display: none; }
+
+.di {
+  display: inline; }
+
+.db {
+  display: block; }
+
+.dib {
+  display: inline-block; }
+
+.dli {
+  display: list-item; }
+
+.dit {
+  display: inline-table; }
+
+.dt {
+  display: table; }
+
+.dtc {
+  display: table-cell; }
+
+.dtcol {
+  display: table-column; }
+
+.dtcolg {
+  display: table-column-group; }
+
+.dtfg {
+  display: table-footer-group; }
+
+.dthg {
+  display: table-header-group; }
+
+.dtr {
+  display: table-row; }
+
+.dtrg {
+  display: table-row-group; }
+
+.df {
+  display: flex; }
+
+.dif {
+  display: inline-flex; }
+
+.dg {
+  display: grid; }
+
+.dig {
+  display: inline-grid; }
+
+.dri {
+  display: run-in; }
+
+/* ==========================================================================
+   FILTERS
+   ========================================================================== */
+/* Blurs */
+.blur-1 {
+  filter: blur(1px); }
+
+.blur-2 {
+  filter: blur(2px); }
+
+.blur-3 {
+  filter: blur(4px); }
+
+.blur-4 {
+  filter: blur(8px); }
+
+.blur-5 {
+  filter: blur(16px); }
+
+/* Bright */
+.bright-1 {
+  filter: brightness(0.25); }
+
+.bright-2 {
+  filter: brightness(0.5); }
+
+.bright-3 {
+  filter: brightness(0.75); }
+
+.bright-4 {
+  filter: brightness(1); }
+
+.bright-5 {
+  filter: brightness(2); }
+
+/* Bright */
+.contrast-1 {
+  filter: contrast(50%); }
+
+.contrast-2 {
+  filter: contrast(75%); }
+
+.contrast-3 {
+  filter: contrast(100%); }
+
+.contrast-4 {
+  filter: contrast(150%); }
+
+.contrast-5 {
+  filter: contrast(200%); }
+
+/* Drop Shadow */
+.drop-shadow {
+  filter: drop-shadow(16px 16px 10px black); }
+
+.drop-shadow {
+  filter: drop-shadow(16px 16px 10px black); }
+
+.drop-shadow {
+  filter: drop-shadow(16px 16px 10px black); }
+
+.drop-shadow {
+  filter: drop-shadow(16px 16px 10px black); }
+
+.drop-shadow {
+  filter: drop-shadow(16px 16px 10px black); }
+
+/* Hue Rotate */
+.hue-rotate-1 {
+  filter: hue-rotate(45deg); }
+
+.hue-rotate-2 {
+  filter: hue-rotate(90deg); }
+
+.hue-rotate-3 {
+  filter: hue-rotate(135deg); }
+
+.hue-rotate-4 {
+  filter: hue-rotate(180deg); }
+
+.hue-rotate-5 {
+  filter: hue-rotate(225deg); }
+
+.hue-rotate-6 {
+  filter: hue-rotate(270deg); }
+
+.hue-rotate-7 {
+  filter: hue-rotate(315deg); }
+
+.hue-rotate-8 {
+  filter: hue-rotate(360deg); }
+
+/* Gray Filter */
+.gray-1 {
+  filter: grayscale(10%); }
+
+.gray-2 {
+  filter: grayscale(20%); }
+
+.gray-3 {
+  filter: grayscale(30%); }
+
+.gray-4 {
+  filter: grayscale(40%); }
+
+.gray-5 {
+  filter: grayscale(50%); }
+
+.gray-6 {
+  filter: grayscale(60%); }
+
+.gray-7 {
+  filter: grayscale(70%); }
+
+.gray-8 {
+  filter: grayscale(80%); }
+
+.gray-9 {
+  filter: grayscale(90%); }
+
+.gray-10 {
+  filter: grayscale(100%); }
+
+/* Inverts */
+.invert-1 {
+  filter: invert(20%); }
+
+.invert-2 {
+  filter: invert(40%); }
+
+.invert-3 {
+  filter: invert(60%); }
+
+.invert-4 {
+  filter: invert(80%); }
+
+.invert-5 {
+  filter: invert(100%); }
+
+/* Saturation */
+.saturate-1 {
+  filter: saturate(10%); }
+
+.saturate-2 {
+  filter: saturate(20%); }
+
+.saturate-3 {
+  filter: saturate(30%); }
+
+.saturate-4 {
+  filter: saturate(40%); }
+
+.saturate-5 {
+  filter: saturate(50%); }
+
+.saturate-6 {
+  filter: saturate(60%); }
+
+.saturate-7 {
+  filter: saturate(70%); }
+
+.saturate-8 {
+  filter: saturate(80%); }
+
+.saturate-9 {
+  filter: saturate(90%); }
+
+.saturate-10 {
+  filter: saturate(100%); }
+
+.saturate-11 {
+  filter: saturate(125%); }
+
+.saturate-12 {
+  filter: saturate(150%); }
+
+/* Sepia */
+.sepia-1 {
+  filter: sepia(25%); }
+
+.sepia-2 {
+  filter: sepia(50%); }
+
+.sepia-3 {
+  filter: sepia(75%); }
+
+.sepia-4 {
+  filter: sepia(100%); }
+
+.sepia-5 {
+  filter: sepia(125%); }
+
+/* ==========================================================================
+   FLOATS
+   ========================================================================== */
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.fn {
+  float: none; }
+
+/* ==========================================================================
+   HYPHENS
+   ========================================================================== */
+.hyphen-none {
+  hyphens: none; }
+
+.hyphen-manual {
+  hyphens: manual; }
+
+.hyphen-auto {
+  hyphens: auto; }
+
+/* ==========================================================================
+   IMAGES
+   ========================================================================== */
+/* IMG Rendering */
+.render-auto {
+  image-rendering: auto; }
+
+.render-auto {
+  image-rendering: crisp-edges; }
+
+.render-auto {
+  image-rendering: pixelated; }
+
+/* IMG Rotation */
+.img-turn-45 {
+  image-orientation: 45deg; }
+
+.img-turn-90 {
+  image-orientation: 90deg; }
+
+.img-turn-135 {
+  image-orientation: 135deg; }
+
+.img-turn-180 {
+  image-orientation: 180deg; }
+
+.img-turn-225 {
+  image-orientation: 225deg; }
+
+.img-turn-270 {
+  image-orientation: 270deg; }
+
+.img-turn-315 {
+  image-orientation: 315deg; }
+
+.img-turn-360 {
+  image-orientation: 360deg; }
+
+/* ==========================================================================
+   LISTS
+   ========================================================================== */
+/* List Style Types */
+.disc {
+  list-style-type: disc; }
+
+.circle {
+  list-style-type: circle; }
+
+.square {
+  list-style-type: square; }
+
+.decimal {
+  list-style-type: decimal; }
+
+.leading-zero {
+  list-style-type: decimal-leading-zero; }
+
+.lower-roman {
+  list-style-type: lower-roman; }
+
+.upper-roman {
+  list-style-type: upper-roman; }
+
+.lower-greek {
+  list-style-type: lower-greek; }
+
+.lower-latin {
+  list-style-type: lower-latin; }
+
+.upper-latin {
+  list-style-type: upper-latin; }
+
+.lower-alpha {
+  list-style-type: lower-alpha; }
+
+.upper-alpha {
+  list-style-type: upper-alpha; }
+
+.list {
+  list-style-type: none; }
+
+/* Horizontal list: can be used on ol or ul */
+.list {
+  list-style: none; }
+
+.list--h {
+  list-style-type: none;
+  display: inline-block; }
+
+/* ==========================================================================
+   OVERFLOWS
+   ========================================================================== */
+.of-vis {
+  overflow: visible; }
+
+.of-hid {
+  overflow: hidden; }
+
+.of-scr {
+  overflow: scroll; }
+
+.of-aut {
+  overflow: auto; }
+
+/* Resize: Use on any element with overflow set to something other than visible */
+.resize-none {
+  resize: none; }
+
+.resize-both {
+  resize: both; }
+
+.resize-hor {
+  resize: horizontal; }
+
+.resize-ver {
+  resize: vertical; }
+
+ /* ==========================================================================
+    POSITIONING
+
+    - Utilities
+    - Values
+    ========================================================================== */
+/* Utilities */
+.pos-stat {
+  position: static; }
+
+.pos-rel {
+  position: relative; }
+
+.pos-abs {
+  position: absolute; }
+
+.pos-fix {
+  position: fixed; }
+
+/* Values */
+.top-0 {
+  top: 0; }
+
+.left-0 {
+  left: 0; }
+
+.right-0 {
+  right: 0; }
+
+.bottom-0 {
+  right: 0; }
+
+.top-1 {
+  top: 1rem; }
+
+.left-1 {
+  left: 1rem; }
+
+.right-1 {
+  right: 1rem; }
+
+.bottom-1 {
+  right: 1rem; }
+
+/* Put it in the middle */
+.center {
+  margin: 0 auto; }
+
+/* ==========================================================================
+   SKINS
+   ========================================================================== */
+.blk {
+  color: #111111; }
+
+.dk-gry {
+  color: #333333; }
+
+.md-gry {
+  color: #666666; }
+
+.gray {
+  color: gray; }
+
+.silver {
+  color: silver; }
+
+.lt-slvr {
+  color: #aaaaaa; }
+
+.lt-gry {
+  color: #cccccc; }
+
+.near-wht {
+  color: #eeeeee; }
+
+.wht {
+  color: white; }
+
+/* ==========================================================================
+   SPACING
+   ========================================================================== */
+/* Padding */
+.pn {
+  padding: 0; }
+
+.ps {
+  padding: .5rem; }
+
+.pm {
+  padding: 1rem; }
+
+.pl {
+  padding: 2rem; }
+
+.px {
+  padding: 4rem; }
+
+.pln {
+  padding-left: 0; }
+
+.pls {
+  padding-left: .5rem; }
+
+.plm {
+  padding-left: 1rem; }
+
+.pll {
+  padding-left: 2rem; }
+
+.plx {
+  padding-left: 4rem; }
+
+.prn {
+  padding-right: 0; }
+
+.prs {
+  padding-right: .5rem; }
+
+.prm {
+  padding-right: 1rem; }
+
+.prl {
+  padding-right: 2rem; }
+
+.prx {
+  padding-right: 4rem; }
+
+.pbn {
+  padding-bottom: 0; }
+
+.pbs {
+  padding-bottom: .5rem; }
+
+.pbm {
+  padding-bottom: 1rem; }
+
+.pbl {
+  padding-bottom: 2rem; }
+
+.pbx {
+  padding-bottom: 4rem; }
+
+.ptn {
+  padding-top: 0; }
+
+.pts {
+  padding-top: .5rem; }
+
+.ptm {
+  padding-top: 1rem; }
+
+.ptl {
+  padding-top: 2rem; }
+
+.ptx {
+  padding-top: 4rem; }
+
+.pvn {
+  padding: 0; }
+
+.pvs {
+  padding: .5rem 0; }
+
+.pvm {
+  padding: 1rem  0; }
+
+.pvl {
+  padding: 2rem  0; }
+
+.pvx {
+  padding: 4rem  0; }
+
+.phn {
+  padding: 0; }
+
+.phs {
+  padding: 0 .5rem; }
+
+.phm {
+  padding: 0 1rem; }
+
+.phl {
+  padding: 0 2rem; }
+
+.phx {
+  padding: 0 4rem; }
+
+/* Margins */
+.mn {
+  margin: 0; }
+
+.ms {
+  margin: .5rem; }
+
+.mm {
+  margin: 1rem; }
+
+.ml {
+  margin: 2rem; }
+
+.mx {
+  margin: 4rem; }
+
+.mln {
+  margin-left: 0; }
+
+.mls {
+  margin-left: .5rem; }
+
+.mlm {
+  margin-left: 1rem; }
+
+.mll {
+  margin-left: 2rem; }
+
+.mlx {
+  margin-left: 4rem; }
+
+.mrn {
+  margin-right: 0; }
+
+.mrs {
+  margin-right: .5rem; }
+
+.mrm {
+  margin-right: 1rem; }
+
+.mrl {
+  margin-right: 2rem; }
+
+.mrx {
+  margin-right: 4rem; }
+
+.mbn {
+  margin-bottom: 0; }
+
+.mbs {
+  margin-bottom: .5rem; }
+
+.mbm {
+  margin-bottom: 1rem; }
+
+.mbl {
+  margin-bottom: 2rem; }
+
+.mbx {
+  margin-bottom: 4rem; }
+
+.mtn {
+  margin-top: 0; }
+
+.mts {
+  margin-top: .5rem; }
+
+.mtm {
+  margin-top: 1rem; }
+
+.mtl {
+  margin-top: 2rem; }
+
+.mtx {
+  margin-top: 4rem; }
+
+.mvn {
+  margin: 0; }
+
+.mvs {
+  margin: .5rem 0; }
+
+.mvm {
+  margin: 1rem  0; }
+
+.mvl {
+  margin: 2rem  0; }
+
+.mvx {
+  margin: 4rem  0; }
+
+.mhn {
+  margin: 0; }
+
+.mhs {
+  margin: 0 .5rem; }
+
+.mhm {
+  margin: 0 1rem; }
+
+.mhl {
+  margin: 0 2rem; }
+
+.mhx {
+  margin: 0 4rem; }
+
+/* ==========================================================================
+   STACKING
+   ========================================================================== */
+/* Opacity */
+.o-10 {
+  opacity: .1; }
+
+.o-20 {
+  opacity: .2; }
+
+.o-30 {
+  opacity: .3; }
+
+.o-40 {
+  opacity: .4; }
+
+.o-50 {
+  opacity: .5; }
+
+.o-60 {
+  opacity: .6; }
+
+.o-70 {
+  opacity: .7; }
+
+.o-80 {
+  opacity: .8; }
+
+.o-90 {
+  opacity: .9; }
+
+.o-full {
+  opacity: 1; }
+
+/* Z-Index */
+.z1 {
+  z-index: 100; }
+
+.z2 {
+  z-index: 200; }
+
+.z3 {
+  z-index: 300; }
+
+.z4 {
+  z-index: 400; }
+
+.z5 {
+  z-index: 500; }
+
+.z6 {
+  z-index: 600; }
+
+.z7 {
+  z-index: 700; }
+
+.z8 {
+  z-index: 800; }
+
+.z9 {
+  z-index: 900; }
+
+.z10 {
+  z-index: 999; }
+
+/* ==========================================================================
+   TABS
+   ========================================================================== */
+.tabs-none {
+  tab-size: 0; }
+
+.tabs-2 {
+  tab-size: 2; }
+
+.tabs-default {
+  tab-size: 4; }
+
+.tabs-large {
+  tab-size: 8; }
+
+/* ==========================================================================
+   TEXT UTILITIES
+
+   - Text Transform
+   - Text Align
+   - Text Decoration
+   - Font Weights
+   - Font Style
+   - Font Family Groups
+   - Font Variant
+
+   ========================================================================== */
+/* Text Transform */
+.ttc {
+  text-transform: capitalize; }
+
+.ttu {
+  text-transform: uppercase; }
+
+.ttl {
+  text-transform: lowercase; }
+
+.ttn {
+  text-transform: none; }
+
+.ttf {
+  text-transform: full-width; }
+
+/* Text Align */
+.tl {
+  text-align: left; }
+
+.tr {
+  text-align: right; }
+
+.tc {
+  text-align: center; }
+
+.tj {
+  text-align: justify; }
+
+.ts {
+  text-align: start; }
+
+.te {
+  text-align: end; }
+
+.tmp {
+  text-align: match-parent; }
+
+.tse {
+  text-align: start end; }
+
+.tp {
+  text-align: "."; }
+
+.tsp {
+  text-align: start "."; }
+
+.tpe {
+  text-align: "." end; }
+
+/* Text Decoration */
+.under {
+  text-decoration: underline; }
+
+.over {
+  text-decoration: overline; }
+
+.strike {
+  text-decoration: line-through; }
+
+.blink {
+  text-decoration: blink; }
+
+.none {
+  text-decoration: none; }
+
+/* Font Weights */
+.fwn {
+  font-weight: normal; }
+
+.b {
+  font-weight: bold; }
+
+.fw1 {
+  font-weight: 100; }
+
+.fw2 {
+  font-weight: 200; }
+
+.fw3 {
+  font-weight: 300; }
+
+.fw4 {
+  font-weight: 400; }
+
+.fw5 {
+  font-weight: 500; }
+
+.fw6 {
+  font-weight: 600; }
+
+.fw7 {
+  font-weight: 700; }
+
+.fw8 {
+  font-weight: 800; }
+
+.fw9 {
+  font-weight: 900; }
+
+/* Font Style */
+.fsn {
+  font-style: normal; }
+
+.i {
+  font-style: italic; }
+
+.oblique {
+  font-style: oblique; }
+
+/* Font Family Groups */
+.serif {
+  font-family: georgia, serif; }
+
+.sans-serif {
+  font-family: helvetica, arial, sans-serif; }
+
+.font-fantasy {
+  font-family: fantasy; }
+
+.font-cursive {
+  font-family: cursive; }
+
+.font-mono {
+  font-family: monospace; }
+
+/* Font Variant */
+.small-caps {
+  font-variant: small-caps; }
+
+/* Vertical Alignment */
+.v-base {
+  vertical-align: baseline; }
+
+.v-sub {
+  vertical-align: sub; }
+
+.v-sup {
+  vertical-align: super; }
+
+.v-txt-top {
+  vertical-align: text-top; }
+
+.v-txt-btm {
+  vertical-align: text-bottom; }
+
+.v-mid {
+  vertical-align: middle; }
+
+.v-top {
+  vertical-align: top; }
+
+.v-btm {
+  vertical-align: bottom; }
+
+/* Word Wrap */
+.ws-norm {
+  white-space: normal; }
+
+.ws-nowrap {
+  white-space: nowrap; }
+
+.ws-pre {
+  white-space: pre; }
+
+.ws-prewrap {
+  white-space: pre-wrap; }
+
+.ws-preline {
+  white-space: pre-line; }
+
+/* Leading */
+.lh {
+  line-height: 1; }
+
+.lh-copy {
+  line-height: 1.6; }
+
+.lh-2 {
+  line-height: 2; }
+
+.lh-3 {
+  line-height: 3; }
+
+/* Tracking */
+.tracked {
+  letter-spacing: 0.1em; }
+
+.mega-tracked {
+  letter-spacing: 0.2em; }
+
+/* Word Break */
+.wb {
+  word-break: normal; }
+
+.wb-break {
+  word-break: break-all; }
+
+.wb-keep {
+  word-break: keep-all; }
+
+.f0 {
+  font-size: 120px; }
+
+.f1 {
+  font-size: 96px; }
+
+.f2 {
+  font-size: 62px; }
+
+.f3 {
+  font-size: 32px; }
+
+.f4 {
+  font-size: 21px; }
+
+.f5 {
+  font-size: 16px; }
+
+.f6 {
+  font-size: 12px; }
+
+/* ==========================================================================
+   VISIBILITY
+   ========================================================================== */
+/* Utilities */
+.vis {
+  visibility: visible; }
+
+.vis-hidden {
+  visibility: hidden; }
+
+.vis-collapse {
+  visibility: collapse; }
+
+/*
+
+Text that is hidden but accessible
+From: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+
+*/
+.clipped {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/*
+
+Backface Visibility
+More info: https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility
+
+*/
+.bf-vis {
+  backface-visibility: visible; }
+
+.bf-hid {
+  backface-visibility: hidden; }
 
 /* ==========================================================================
    SITE STYLES
@@ -330,4 +2631,4 @@ table {
  * and add them in import.scss
  */
 body {
-  padding: 0 20px; }
+  font-family: "proxima-nova", helvetica, arial, sans-serif; }
