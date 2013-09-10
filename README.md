@@ -1,19 +1,18 @@
 Checkout [ht-ml.cc](http://ht-ml.cc "HTML - Common patterns for reuse")
 
-# HTML - Work in Progress
+# HTML
 
-#### Common Markup Patterns
-
-Common markup patterns useful for developing prototypes or creating new themes.
+Common markup patterns I use for developing websites.
 
 # Features
 
+* All non-media elements in the HTML5 spec are included on one page and are ready to be styled.
 * Modular Structure - add your own patterns, or delete the ones you don't like.
-* Semantic markup examples for common design patterns.
+* Semantic and accessible markup examples for common design patterns.
 * 100% responsive except for the silly img element :)
-* Thoroughly commented code (Useful comments and reference links for new HTML developers)
+* Thoroughly commented code (notes and reference links for new HTML developers)
 
-# Getting started
+# Getting the Code
 
 * Create a new repo for your project on Github
 * In terminal run
@@ -31,12 +30,25 @@ Common markup patterns useful for developing prototypes or creating new themes.
     origin  git@github.com:yourUserName/yourNewRepoName.git (push)
 ```
 
-* Once you add & commit files you are ready to publish run:
-```bash
-git push -u origin master
+Now your set up to use this in a new project.
+
+# Getting Started
+
+## The HTML
+* Open up index.html with your favorite text editor and hack away. It's that simple.
+* To preview changes at http://localhost:8000 - open up terminal.app and type
+```
+python -m SimpleHTTPServer
 ```
 
-Now your set up to use this in a new project.
+## The CSS
+
+If you use sass you can run ```rake sass``` from the root of the directory and then
+edit ```_sass/_styles.scss``` to style the content in index.html
+
+If you'd like to just edit the vanilla css you can delete the _sass directory and
+just edit ```css/i.css```
+
 
 # Author
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
