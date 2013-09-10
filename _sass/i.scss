@@ -1,3 +1,25 @@
-// Include all partials you want compiled to i.css. You don't need to include the _ (underscore). Hooray.
-@import "normalize";
+@import "colors";
+@import "backgrounds";
+
+@import "animations";
+@import "borders";
+@import "clears";
+@import "cursors";
+@import "dimensions";
+@import "direction";
+@import "display";
+@import "filters";
+@import "floats";
+@import "hyphens";
+@import "images";
+@import "lists";
+@import "overflow";
+@import "position";
+@import "resolution";
+@import "skins";
+@import "spacing";
+@import "stacking";
+@import "tabs";
+@import "type";
+@import "visibility";
 @import "styles";
