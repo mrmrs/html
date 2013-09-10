@@ -2631,4 +2631,5 @@ More info: https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility
  * and add them in import.scss
  */
 body {
-  font-family: "proxima-nova", helvetica, arial, sans-serif; }
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+  font-size: 18px; }
