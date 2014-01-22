@@ -30,7 +30,7 @@ Common markup patterns I use for developing websites.
     origin  git@github.com:yourUserName/yourNewRepoName.git (push)
 ```
 
-Now your set up to use this in a new project.
+Now you're set up to use this in a new project.
 
 # Getting Started
 
