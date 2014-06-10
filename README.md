@@ -9,7 +9,6 @@ Common markup patterns I use for developing websites.
 * All non-media elements in the HTML5 spec are included on one page and are ready to be styled.
 * Modular Structure - add your own patterns, or delete the ones you don't like.
 * Semantic and accessible markup examples for common design patterns.
-* 100% responsive except for the silly img element :)
 * Thoroughly commented code (notes and reference links for new HTML developers)
 
 # Getting the Code
@@ -40,15 +39,6 @@ Now your set up to use this in a new project.
 ```
 python -m SimpleHTTPServer
 ```
-
-## The CSS
-
-If you use sass you can run ```rake sass``` from the root of the directory and then
-edit ```_sass/_styles.scss``` to style the content in index.html
-
-If you'd like to just edit the vanilla css you can delete the _sass directory and
-just edit ```css/i.css```
-
 
 # Author
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
