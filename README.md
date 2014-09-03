@@ -26,7 +26,7 @@ Common markup patterns I use for developing websites.
 * git remote -v will allow you to check that you have changed the remote origin correctly. The output should look like:
 ```bash
     origin git@github.com:yourUserName/yourNewRepoName.git (fetch)
-    origin  git@github.com:yourUserName/yourNewRepoName.git (push)
+    origin git@github.com:yourUserName/yourNewRepoName.git (push)
 ```
 
 Now your set up to use this in a new project.
