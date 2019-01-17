@@ -56,7 +56,7 @@
     </header>
 
     <section>
-      <h>Headings &amp; Copy</h1>
+      <h1>Headings &amp; Copy</h1>
       <h1>First Header h1</h1>
       <p>
         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
