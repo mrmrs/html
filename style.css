@@ -1,0 +1,105 @@
+header{
+    background-color: darkgreen;
+    color: azure;
+    text-align: center;
+    margin: 0px auto;
+}
+footer{
+    background-color: darkgreen;
+    color: azure;
+    text-align: center;
+    margin: 0px auto;
+}
+.list{
+    background-color: lightgreen;
+    padding-left: 20px;
+    text-align: left;
+    margin: -20px 0px 0px 0px;
+}
+.list ul li{
+    list-style: none;
+    color: darkgreen;
+    display: inline;
+    padding: 20px;
+    text-decoration-line: none;
+    text-transform: none;
+}
+.judul{
+    font-family: sans-serif;
+    color: darkgreen;
+    align-content: unset;
+}
+.judul2{
+    background-color: rgb(178, 240, 178);
+    margin-top: -20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.satu{
+    background-color: darkred;
+    padding-left: 10px;
+    padding-bottom: 10px;;
+    margin-top: -20px;
+    color: azure;
+}
+.dua{
+    background-color: orange;
+    padding-left: 10px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    color: azure;
+}
+.tiga{
+    background-color: yellow;
+    color: grey;
+    padding-left: 10px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+.empat{
+    background-color: green;
+    color: lightgray;
+    padding-left: 10px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+.lima{
+    background-color: blue;
+    color: azure;
+    padding-left: 10px;
+    margin-top: -30px;
+    padding-bottom: 10px;
+}
+.enam{
+    background-color: blueviolet;
+    color: azure;
+    padding-left: 10px;
+    margin-top: -30px;
+    padding-bottom: 10px;
+}
+.lain{
+    margin-top: 0px;
+    display: inline-block;
+    background-color: lightgray;
+}
+.form{
+    background-color: lightpink;
+    color: darkred;
+    padding: 10px;
+}
+.btn{
+    background-color: lightskyblue;
+    color: darkblue;
+    padding: 10px;
+}
+.art{
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
+    padding: 10px;
+}
+.cdexp{
+    background-color: lightsalmon;
+    color: darkred;
+    padding: 10px;
+}
