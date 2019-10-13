@@ -1,0 +1,36 @@
+nav{
+  position: relative;
+}
+.list{
+  font-style: italic;
+  font-weight: bold;
+}
+p{
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ddone{
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.headings{
+  text-align: center;
+}
+.link{
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  align-items: center;
+  height: 150px;
+  width: 400px;
+}
+
+.link:hover{
+  background-color: rgba(113, 134, 168);
+}
+
+.footer{
+  background-color: rgba(112, 122, 138);
+}
