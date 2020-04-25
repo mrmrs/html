@@ -1,0 +1,61 @@
+body {
+    background-color: #444;
+    color: #fff;    
+    font-size: 20px;
+    font-family: 'Quicksand';
+    padding-top: 5%;
+    word-wrap: break-word;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .dp {
+      position: relative;
+      background-color: white;
+      color: black;
+  }
+
+  .button {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+  }
+
+
+@media (min-width: 600px) and (max-resolution: 1.8dppx) {
+	body {
+    min-width: 40rem;
+    max-width: 85rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;     
+  }
+}
+
+@media not all and (min-width: 600px) and (max-resolution: 1.8dppx){
+  body {
+    min-width: 30rem;
+    margin:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  nav > ul {    
+    display: flex;
+    padding-inline-start: 0.5em;
+  }  
+}
