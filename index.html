@@ -187,58 +187,49 @@
           <legend>Legend Example</legend>
 
           <div>
-            <label>Text Input Label</label>
+            <label>Username:</label><br>
             <input type="text" />
-            <p>Helper text if necessary.</p>
           </div>
 
           <div>
-            <label>Password</label>
-            <input type="password" />
+            <label>Password:</label><br>
+            <input type="password"  pattern=".{8,}" title="Eight or more characters" />
             <p>Error messages when appropriate.</p>
           </div>
 
           <div>
-            <label for="first-name">First Name</label>
+            <label for="first-name">First Name:</label><br>
             <input type="text" id="first-name" />
           </div>
 
           <div>
-            <label for="last-name">Last Name</label>
+            <label for="last-name">Last Name:</label><br>
             <input type="text" id="last-name" />
           </div>
 
           <div>
-            <label for="email">Email</label>
+            <label for="email">Email:</label><br>
             <input type="email" id="email" />
           </div>
 
 
-          <div>
-            <label for="gender">Dropdown</label>
-            <select>
-              <option>Option 1</option>
-              <option>Option 2</option>
-              <option>Option 3</option>
-            </select>
+           <div>
+              <label>Gender:</label><br>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label>
           </div>
 
           <div>
-            <label>Radio Buttons</label>
-            <ul>
-              <li><label><input type="radio" /> Label 1</label></li>
-              <li><label><input type="radio" /> Label 2</label></li>
-              <li><label><input type="radio" /> Label 3</label></li>
-            </ul>
-          </div>
-
-          <div>
-            <label for="url">URL Input</label>
+            <label for="url">URL Input:</label><br>
             <input type="url" placeholder="http://mrmrs.cc" />
           </div>
 
           <div>
-            <label>Text area</label>
+            <label>Text area:</label><br>
             <textarea></textarea>
           </div>
 
