@@ -2,12 +2,12 @@ To view this unstyled markup visit [http://mrmrs.io/html](http://mrmrs.io/html)
 
 # HTML
 
-Common markup patterns I use for developing websites.
+One of the most Common and very easy markup patterns I use for developing websites.
 
 # Features
 
 * All non-media elements in the HTML5 spec are included on one page and are ready to be styled.
-* Modular Structure - add your own patterns, or delete the ones you don't like.
+* Modular Structure - add your own patterns, or delete the one you don't like.
 * Semantic and accessible markup examples for common design patterns.
 * Thoroughly commented code (notes and reference links for new HTML developers)
 
