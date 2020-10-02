@@ -1,6 +1,6 @@
 To view this unstyled markup visit [http://mrmrs.io/html](http://mrmrs.io/html)
 
-# HTML
+# [HTML](http://mrmrs.io/html)
 
 Common markup patterns I use for developing websites.
 
