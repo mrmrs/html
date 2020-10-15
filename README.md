@@ -44,7 +44,7 @@ python -m SimpleHTTPServer
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
 
 # Reference
-[Mozilla HTML element list](http://https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list "Mozilla HTML element list")
+[Mozilla HTML element list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element "Mozilla HTML element list")
 
 # MIT LICENSE
 Copyright (c) 2018 Adam Morse http://opensource.org/licenses/MIT
