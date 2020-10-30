@@ -2,18 +2,18 @@ To view this unstyled markup visit [http://mrmrs.io/html](http://mrmrs.io/html)
 
 # HTML
 
-Common markup patterns I use for developing websites.
+Here, what I have shown is the pattern of Common Markup Language which I generally use to create my websites.
 
 # Features
 
-* All non-media elements in the HTML5 spec are included on one page and are ready to be styled.
-* Modular Structure - add your own patterns, or delete the ones you don't like.
-* Semantic and accessible markup examples for common design patterns.
-* Thoroughly commented code (notes and reference links for new HTML developers)
+* All non-media elements in the HTML5 specification are included on one page and are ready to be styled.
+* Modular Structure - Add your own patterns, or delete the ones you don't like.
+* Semantic and Accessible Markup Examples for common design patterns.
+* Thoroughly commented code (Notes and Reference links for new HTML developers)
 
 # Getting the Code
 
-* Create a new repo for your project on Github
+* Create a new Repository for your project on Github itself.
 * In terminal run
 ```bash
     git clone git@github.com:mrmrs/html.git yourNewRepoName
