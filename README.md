@@ -13,7 +13,7 @@ Common markup patterns I use for developing websites.
 
 # Getting the Code
 
-* Create a new repo for your project on Github
+* Create a new repository for your project on Github
 * In terminal run
 ```bash
     git clone git@github.com:mrmrs/html.git yourNewRepoName
