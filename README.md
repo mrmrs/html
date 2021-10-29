@@ -31,7 +31,7 @@ Common markup patterns I use for developing websites.
 
 Now you're set up to use this in a new project.
 
-# Getting Started
+# Getting Started.
 
 ## The HTML
 * Open up index.html with your favorite text editor and hack away. It's that simple.
