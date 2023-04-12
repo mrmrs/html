@@ -2,7 +2,7 @@ To view this unstyled markup visit [http://mrmrs.io/html](http://mrmrs.io/html)
 
 # HTML
 
-Common markup patterns I use for developing websites.
+HTML, or HyperText Markup Language, is a markup language used to create and structure content on the web. It consists of a set of tags and attributes that define the structure and appearance of web pages. HTML documents are interpreted by web browsers, which render the content and display it to users. HTML is a foundational technology for the web, and it is used in conjunction with other technologies like CSS and JavaScript to create dynamic and interactive web experiences. HTML has undergone several revisions over the years, with HTML5 being the most recent version as of 2023.
 
 # Features
 
