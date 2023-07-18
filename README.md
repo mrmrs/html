@@ -30,6 +30,49 @@ Common markup patterns I use for developing websites.
 ```
 
 Now you're set up to use this in a new project.
+### Basic Steps for Full Stack Web Developer:
+
+1. Learn Basic of:
+   - HTML
+   - CSS
+   - JavaScript
+2. Develop Simple Project using these technologies to understand how does the website actually work.
+3. Choose any 1 Front-End Technology:
+   - React JS
+   - Vue JS
+   - Angular
+4. Along with Front-End we need to study Back-End also:
+   - Java
+   - Python
+   - C#
+   - Ruby
+   - Php
+   - Node JS
+5. We need databases to store the data:
+
+- SQL
+  - MYSQL
+  - SQL Server
+  - Oracle
+  - Postegre SQL
+- NOSQL
+  - MongoDB
+  - Casssandra
+  - CouchDB
+
+6. Then we have different versions of the developed software with some changes, so we use:
+   - Git
+   - GitHub/GitLab/BitBucket
+7. Finally we need one of the Cloud Services to host the website:
+   - Google Cloud Platform
+   - Microsoft Azure
+   - Amazon Web Service
+   - Heroku
+8. Some containers used in Cloud Services:
+   - Docker
+   - Kubernetes
+
+## Once we prepare all these aspect for a particular project we can get a hang of Full Stack Web Development.
 
 # Getting Started
 
