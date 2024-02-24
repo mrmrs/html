@@ -10,7 +10,7 @@ async function generateRecipe() {
         displayRecipe(recipe);
     } catch (error) {
         console.error('Error generating recipe:', error);
-        alert('Error generating recipe. Please try again later.');
+        alert(`Error generating recipe: ${error.message}. Please try again later.`);
     }
 }
 
@@ -27,8 +27,12 @@ async function getRecipeFromAPI(ingredients) {
         throw new Error('Failed to fetch recipe from API');
     }
 
-    const data = await response.json();
-    return data.recipe;
+    try {
+        const data = await response.json();
+        return data.recipe;
+    } catch (error) {
+        throw new Error('Failed to parse JSON response from API');
+    }
 }
 
 function displayRecipe(recipe) {
