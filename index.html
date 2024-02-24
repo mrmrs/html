@@ -3,21 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Maker with Leftovers</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Recipe Generator</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Recipe Maker with Leftovers</h1>
-        <div class="ingredients">
-            <h2>Enter your leftover ingredients:</h2>
-            <textarea id="ingredientInput" placeholder="Enter your leftover ingredients here..."></textarea>
-            <button onclick="generateRecipe()">Generate Recipe</button>
-        </div>
-        <div id="recipeResult">
-            <!-- Recipe will be displayed here -->
-        </div>
-    </div>
+
+    <form id="recipeForm">
+        <label for="ingredientInput">Enter leftover ingredients:</label>
+        <input type="text" id="ingredientInput">
+        <button type="button" onclick="generateRecipe()">Generate Recipe</button>
+    </form>
+
+    <div id="recipeResult"></div>
+
     <script src="script.js"></script>
+    
+    <script>
+        async function generateRecipe() {
+            const ingredientInput = document.getElementById('ingredientInput').value.trim();
+            const recipeForm = document.getElementById('recipeForm');
+
+            if (ingredientInput === '') {
+                alert('Please enter your leftover ingredients!');
+                return;
+            }
+
+            try {
+                const recipe = await getRecipeFromAPI(ingredientInput);
+                displayRecipe(recipe);
+            } catch (error) {
+                console.error('Error generating recipe:', error);
+                alert(`Error generating recipe: ${error.message}. Please try again later.`);
+            }
+        }
+
+        async function getRecipeFromAPI(ingredients) {
+            const response = await fetch('/generate-recipe', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ ingredients })
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch recipe from API');
+            }
+
+            try {
+                const data = await response.json();
+                return data.recipe;
+            } catch (error) {
+                throw new Error('Failed to parse JSON response from API');
+            }
+        }
+
+        function displayRecipe(recipe) {
+            const recipeResult = document.getElementById('recipeResult');
+            recipeResult.innerHTML = `<h2>Generated Recipe:</h2><p>${recipe}</p>`;
+        }
+    </script>
+
 </body>
 </html>
