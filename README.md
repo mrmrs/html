@@ -40,6 +40,9 @@ Now you're set up to use this in a new project.
 python -m SimpleHTTPServer
 ```
 
+# About me 
+- I am Minhaj Just a ordinary Humam being ;)
+- Learning Java..
 # Author
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
 
